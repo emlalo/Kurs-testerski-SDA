@@ -1,13 +1,13 @@
 {
 	"info": {
 		"_postman_id": "15f9c94d-8fec-4970-8247-2e33f97485d0",
-		"name": "TrelloAPI Copy",
+		"name": "TrelloAPI",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
 		{
 			"name": "CreateNewBoard",
-			"_postman_id": "58d4db45-e58e-4049-b218-227b2a8fba1f",
+			"id": "58d4db45-e58e-4049-b218-227b2a8fba1f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -47,7 +47,7 @@
 		},
 		{
 			"name": "CreateList",
-			"_postman_id": "f3bea7bb-0af6-445e-a172-2ad04127e22b",
+			"id": "f3bea7bb-0af6-445e-a172-2ad04127e22b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -90,7 +90,7 @@
 		},
 		{
 			"name": "CreateNewCard",
-			"_postman_id": "b930bb3d-d552-4af7-a47e-111a9dfe1e4f",
+			"id": "b930bb3d-d552-4af7-a47e-111a9dfe1e4f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -137,7 +137,7 @@
 		},
 		{
 			"name": "CreateNewChecklist",
-			"_postman_id": "a3fca00b-7394-499d-818f-2b97d5e111e6",
+			"id": "a3fca00b-7394-499d-818f-2b97d5e111e6",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -178,7 +178,7 @@
 		},
 		{
 			"name": "UpdateBoard",
-			"_postman_id": "5ef735f2-4b00-4d1e-ae99-4978e22aa634",
+			"id": "5ef735f2-4b00-4d1e-ae99-4978e22aa634",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -218,7 +218,7 @@
 		},
 		{
 			"name": "UpdateCard",
-			"_postman_id": "ce325b2c-96e9-414c-8a32-1e9727a672af",
+			"id": "ce325b2c-96e9-414c-8a32-1e9727a672af",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -262,7 +262,7 @@
 		},
 		{
 			"name": "UpdateList",
-			"_postman_id": "18d7b6cd-66d3-4eba-85e7-7cc0317473c0",
+			"id": "18d7b6cd-66d3-4eba-85e7-7cc0317473c0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -302,7 +302,7 @@
 		},
 		{
 			"name": "CreateList2",
-			"_postman_id": "55fb013b-f8ee-4f90-a5ee-6251434acce9",
+			"id": "55fb013b-f8ee-4f90-a5ee-6251434acce9",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -345,7 +345,7 @@
 		},
 		{
 			"name": "CreateList3",
-			"_postman_id": "a878ffb2-f8f6-47f2-89ff-f52a9b3843a7",
+			"id": "a878ffb2-f8f6-47f2-89ff-f52a9b3843a7",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -388,7 +388,7 @@
 		},
 		{
 			"name": "NewOrganization",
-			"_postman_id": "e166dec0-7fdf-4141-afda-5763a565f66c",
+			"id": "e166dec0-7fdf-4141-afda-5763a565f66c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -435,7 +435,7 @@
 		},
 		{
 			"name": "New Request",
-			"_postman_id": "f3c8a0d3-194b-4967-9d5b-a00491b7b39f",
+			"id": "f3c8a0d3-194b-4967-9d5b-a00491b7b39f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
