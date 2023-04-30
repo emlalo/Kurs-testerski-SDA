@@ -21,7 +21,7 @@
 					}
 				}
 			],
-			"_postman_id": "3c362eb3-2537-40bf-8ac3-dd6a0b80ba92",
+			"id": "3c362eb3-2537-40bf-8ac3-dd6a0b80ba92",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -34,14 +34,14 @@
 		},
 		{
 			"name": "getBookingid by id",
-			"_postman_id": "8f4e8028-a8ae-41fd-a3d2-c4aece532da1",
+			"id": "8f4e8028-a8ae-41fd-a3d2-c4aece532da1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://restful-booker.herokuapp.com/booking/3476"
+				"url": "https://restful-booker.herokuapp.com/booking/3471"
 			},
 			"response": []
 		},
@@ -61,7 +61,7 @@
 					}
 				}
 			],
-			"_postman_id": "f758960f-9a20-4d06-bbb6-9a98e50f6769",
+			"id": "f758960f-9a20-4d06-bbb6-9a98e50f6769",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -83,7 +83,7 @@
 		},
 		{
 			"name": "UpdateBooking",
-			"_postman_id": "0a7f3c24-fff4-4699-aa8c-b158677d72d5",
+			"id": "0a7f3c24-fff4-4699-aa8c-b158677d72d5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -119,7 +119,7 @@
 		},
 		{
 			"name": "CreateToken",
-			"_postman_id": "7d17dab7-c62a-4479-8466-6f7bc0c59cd2",
+			"id": "7d17dab7-c62a-4479-8466-6f7bc0c59cd2",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -141,7 +141,7 @@
 		},
 		{
 			"name": "PartialUpdateBooking",
-			"_postman_id": "951eb2cf-558b-41cf-9695-d206af7ffd12",
+			"id": "951eb2cf-558b-41cf-9695-d206af7ffd12",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -172,7 +172,7 @@
 		},
 		{
 			"name": "DeleteBooking",
-			"_postman_id": "9a8d39b3-32ba-4f56-af65-7e5a2e88bf27",
+			"id": "9a8d39b3-32ba-4f56-af65-7e5a2e88bf27",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -214,19 +214,19 @@
 	],
 	"variable": [
 		{
-			"id": "463427f4-b1eb-43b7-8d88-f7b7fc5e6d10",
+			"id": "e5593b8b-9f78-4572-a2cc-5a0a4fd9e1ec",
 			"key": "userName",
 			"value": "admin",
 			"type": "default"
 		},
 		{
-			"id": "83ec7133-1cf3-4522-b736-ae00ff8cd76e",
+			"id": "516853c2-371a-4e46-842d-503a3aa0947c",
 			"key": "userPassword",
 			"value": "password123",
 			"type": "default"
 		},
 		{
-			"id": "aa6e4293-acaf-44ca-94bd-f7da60e969ea",
+			"id": "92c8c858-c729-4c7c-9569-d5b74810e147",
 			"key": "baseURL",
 			"value": "https://restful-booker.herokuapp.com",
 			"type": "default"
