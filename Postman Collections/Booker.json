@@ -56,7 +56,7 @@
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
 							"\r",
-							"    var jsonData = JSON.parse(bookingid);\r",
+							"    var jsonData = JSON.parse(responseBody);\r",
 							"    postman.setEnvironmentVariable(\"id\", jsonData.bookingid);\r",
 							"});"
 						],
@@ -217,19 +217,19 @@
 	],
 	"variable": [
 		{
-			"id": "64349307-1846-4773-a442-7c0f4e7bcc1e",
+			"id": "11adb7dd-606d-459c-bd33-e15e2a67270e",
 			"key": "userName",
 			"value": "admin",
 			"type": "default"
 		},
 		{
-			"id": "31f11c90-d90e-42ff-b30f-4e6e62905c49",
+			"id": "af23f4cd-35a9-439b-9905-a0c838e471f4",
 			"key": "userPassword",
 			"value": "password123",
 			"type": "default"
 		},
 		{
-			"id": "a5ab06ed-6050-4e7d-a982-91510b898f0a",
+			"id": "ea81d9f7-8821-4678-9a8b-313dbdda6033",
 			"key": "baseURL",
 			"value": "https://restful-booker.herokuapp.com",
 			"type": "default"
