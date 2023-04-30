@@ -487,7 +487,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/644e67a56ad4e1541d3d5920/labels?name=testLabel&color=null&key={{key}}&token={{token}}",
+					"raw": "https://api.trello.com/1/boards/644e3952438c643801b0d4f4/labels?name=Label&color=null&key={{key}}&token={{token}}",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -496,13 +496,14 @@
 					],
 					"path": [
 						"1",
-						"644e67a56ad4e1541d3d5920",
+						"boards",
+						"644e3952438c643801b0d4f4",
 						"labels"
 					],
 					"query": [
 						{
 							"key": "name",
-							"value": "testLabel"
+							"value": "Label"
 						},
 						{
 							"key": "color",
