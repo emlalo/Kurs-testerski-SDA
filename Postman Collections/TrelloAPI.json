@@ -1,0 +1,481 @@
+{
+	"info": {
+		"_postman_id": "15f9c94d-8fec-4970-8247-2e33f97485d0",
+		"name": "TrelloAPI Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CreateNewBoard",
+			"_postman_id": "58d4db45-e58e-4049-b218-227b2a8fba1f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/?name=Pierwsza&key=20408a93dc60c1f8e2e98f4b71fecb89&token=ATTA7d848ede03d3017fbe464df555c81a74a2588710402c52e10769439fbf0df4ac73F90305",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Pierwsza"
+						},
+						{
+							"key": "key",
+							"value": "20408a93dc60c1f8e2e98f4b71fecb89"
+						},
+						{
+							"key": "token",
+							"value": "ATTA7d848ede03d3017fbe464df555c81a74a2588710402c52e10769439fbf0df4ac73F90305"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateList",
+			"_postman_id": "f3bea7bb-0af6-445e-a172-2ad04127e22b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/lists?name=Do zrobienia&idBoard=644e3952438c643801b0d4f4&key=20408a93dc60c1f8e2e98f4b71fecb89&token=ATTA7d848ede03d3017fbe464df555c81a74a2588710402c52e10769439fbf0df4ac73F90305",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"lists"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Do zrobienia"
+						},
+						{
+							"key": "idBoard",
+							"value": "644e3952438c643801b0d4f4"
+						},
+						{
+							"key": "key",
+							"value": "20408a93dc60c1f8e2e98f4b71fecb89"
+						},
+						{
+							"key": "token",
+							"value": "ATTA7d848ede03d3017fbe464df555c81a74a2588710402c52e10769439fbf0df4ac73F90305"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateNewCard",
+			"_postman_id": "b930bb3d-d552-4af7-a47e-111a9dfe1e4f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards?idList=644e3c2a49df47e460653c7c&key=20408a93dc60c1f8e2e98f4b71fecb89&token=ATTA7d848ede03d3017fbe464df555c81a74a2588710402c52e10769439fbf0df4ac73F90305&name=PierwszeZadanie&desc=To jest pierwsze zadanie",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards"
+					],
+					"query": [
+						{
+							"key": "idList",
+							"value": "644e3c2a49df47e460653c7c"
+						},
+						{
+							"key": "key",
+							"value": "20408a93dc60c1f8e2e98f4b71fecb89"
+						},
+						{
+							"key": "token",
+							"value": "ATTA7d848ede03d3017fbe464df555c81a74a2588710402c52e10769439fbf0df4ac73F90305"
+						},
+						{
+							"key": "name",
+							"value": "PierwszeZadanie"
+						},
+						{
+							"key": "desc",
+							"value": "To jest pierwsze zadanie"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateNewChecklist",
+			"_postman_id": "a3fca00b-7394-499d-818f-2b97d5e111e6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards/644e3c97f29dae2aa584d19f/checklists?key=20408a93dc60c1f8e2e98f4b71fecb89&token=ATTA7d848ede03d3017fbe464df555c81a74a2588710402c52e10769439fbf0df4ac73F90305&name=Checklista",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards",
+						"644e3c97f29dae2aa584d19f",
+						"checklists"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "20408a93dc60c1f8e2e98f4b71fecb89"
+						},
+						{
+							"key": "token",
+							"value": "ATTA7d848ede03d3017fbe464df555c81a74a2588710402c52e10769439fbf0df4ac73F90305"
+						},
+						{
+							"key": "name",
+							"value": "Checklista"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateBoard",
+			"_postman_id": "5ef735f2-4b00-4d1e-ae99-4978e22aa634",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/644e3952438c643801b0d4f4?key=20408a93dc60c1f8e2e98f4b71fecb89&token=ATTA7d848ede03d3017fbe464df555c81a74a2588710402c52e10769439fbf0df4ac73F90305&name=Pierwsza Tablica",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						"644e3952438c643801b0d4f4"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "20408a93dc60c1f8e2e98f4b71fecb89"
+						},
+						{
+							"key": "token",
+							"value": "ATTA7d848ede03d3017fbe464df555c81a74a2588710402c52e10769439fbf0df4ac73F90305"
+						},
+						{
+							"key": "name",
+							"value": "Pierwsza Tablica"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateCard",
+			"_postman_id": "ce325b2c-96e9-414c-8a32-1e9727a672af",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards/644e3c97f29dae2aa584d19f?key={{key}}&token={{token}}&name=Dodanie funkcji logowania się do systemu&desc=Jako nowy użytkownik chcę móc zalogować się na stronę",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards",
+						"644e3c97f29dae2aa584d19f"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						},
+						{
+							"key": "name",
+							"value": "Dodanie funkcji logowania się do systemu"
+						},
+						{
+							"key": "desc",
+							"value": "Jako nowy użytkownik chcę móc zalogować się na stronę"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateList",
+			"_postman_id": "18d7b6cd-66d3-4eba-85e7-7cc0317473c0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/lists/644e3c2a49df47e460653c7c?key={{key}}&token={{token}}&name=To do",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"lists",
+						"644e3c2a49df47e460653c7c"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						},
+						{
+							"key": "name",
+							"value": "To do"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateList2",
+			"_postman_id": "55fb013b-f8ee-4f90-a5ee-6251434acce9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/lists?name=In progress&idBoard=644e3952438c643801b0d4f4&key={{key}}&token={{token}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"lists"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "In progress"
+						},
+						{
+							"key": "idBoard",
+							"value": "644e3952438c643801b0d4f4"
+						},
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateList3",
+			"_postman_id": "a878ffb2-f8f6-47f2-89ff-f52a9b3843a7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/lists?name=Done&idBoard=644e3952438c643801b0d4f4&key={{key}}&token={{token}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"lists"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Done"
+						},
+						{
+							"key": "idBoard",
+							"value": "644e3952438c643801b0d4f4"
+						},
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NewOrganization",
+			"_postman_id": "e166dec0-7fdf-4141-afda-5763a565f66c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/organizations?displayName=Projekt SDA&key={{key}}&token={{token}}&desc=Pierwszy projekt testerski SDA&name=Projekt testerski",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"organizations"
+					],
+					"query": [
+						{
+							"key": "displayName",
+							"value": "Projekt SDA"
+						},
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						},
+						{
+							"key": "desc",
+							"value": "Pierwszy projekt testerski SDA"
+						},
+						{
+							"key": "name",
+							"value": "Projekt testerski"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"_postman_id": "f3c8a0d3-194b-4967-9d5b-a00491b7b39f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/?name=TablicaSDA&key={{key}}&token={{token}}&idOrganization=644e5ae26bf5fd2348a90d4f",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "TablicaSDA"
+						},
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						},
+						{
+							"key": "idOrganization",
+							"value": "644e5ae26bf5fd2348a90d4f"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
