@@ -648,7 +648,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "CreateNewCard1",
 			"id": "aadd9e83-66db-410e-8d96-d3ec73fb416d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
