@@ -523,18 +523,6 @@
 			"response": []
 		},
 		{
-			"name": "DeleteBoard",
-			"id": "95c57780-a772-4f04-8a0a-80fbe44c0a02",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
-		},
-		{
 			"name": "GetOrganization",
 			"id": "a620f06d-a362-482a-a7b4-b8179aaac1d8",
 			"protocolProfileBehavior": {
