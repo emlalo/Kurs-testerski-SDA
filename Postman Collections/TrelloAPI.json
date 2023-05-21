@@ -617,7 +617,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "NewTestingList",
 			"id": "60cb0a85-bb98-44b3-8917-48c8589672ff",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
