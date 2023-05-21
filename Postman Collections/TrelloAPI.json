@@ -232,8 +232,17 @@
 			"request": {
 				"method": "PUT",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
-					"raw": "https://api.trello.com/1/boards/644e3952438c643801b0d4f4?key=20408a93dc60c1f8e2e98f4b71fecb89&token=ATTA7d848ede03d3017fbe464df555c81a74a2588710402c52e10769439fbf0df4ac73F90305&name=Pierwsza Tablica",
+					"raw": "https://api.trello.com/1/boards/6469d7acb8e4f21ad24730b2?key=20408a93dc60c1f8e2e98f4b71fecb89&token=ATTA7d848ede03d3017fbe464df555c81a74a2588710402c52e10769439fbf0df4ac73F90305&name=Pierwsza Tablica",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -243,7 +252,7 @@
 					"path": [
 						"1",
 						"boards",
-						"644e3952438c643801b0d4f4"
+						"6469d7acb8e4f21ad24730b2"
 					],
 					"query": [
 						{
