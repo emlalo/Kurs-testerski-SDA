@@ -578,7 +578,41 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/VFAOXsxC?key={{key}}&token={{token}}&cards=visible&lists=open",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						"VFAOXsxC"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						},
+						{
+							"key": "cards",
+							"value": "visible",
+							"type": "text"
+						},
+						{
+							"key": "lists",
+							"value": "open",
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		}
