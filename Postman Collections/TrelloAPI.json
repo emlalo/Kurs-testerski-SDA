@@ -434,7 +434,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "CreateBoard2",
 			"id": "f3c8a0d3-194b-4967-9d5b-a00491b7b39f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
