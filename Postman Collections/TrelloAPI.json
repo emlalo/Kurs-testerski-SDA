@@ -571,7 +571,7 @@
 			"response": []
 		},
 		{
-			"name": "GetBoard",
+			"name": "GetBoard1",
 			"id": "bcede004-62e5-4c9d-b3d4-8de2d4a1347d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
