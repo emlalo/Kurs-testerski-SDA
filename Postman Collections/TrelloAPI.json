@@ -523,7 +523,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "DeleteBoard",
 			"id": "95c57780-a772-4f04-8a0a-80fbe44c0a02",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
