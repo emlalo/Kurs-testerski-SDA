@@ -6,6 +6,53 @@
 	},
 	"item": [
 		{
+			"name": "NewOrganization",
+			"id": "e166dec0-7fdf-4141-afda-5763a565f66c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/organizations?displayName=Projekt SDA&key={{key}}&token={{token}}&desc=Pierwszy projekt testerski SDA&name=Projekt testerski",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"organizations"
+					],
+					"query": [
+						{
+							"key": "displayName",
+							"value": "Projekt SDA"
+						},
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						},
+						{
+							"key": "desc",
+							"value": "Pierwszy projekt testerski SDA"
+						},
+						{
+							"key": "name",
+							"value": "Projekt testerski"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "CreateNewBoard",
 			"id": "58d4db45-e58e-4049-b218-227b2a8fba1f",
 			"protocolProfileBehavior": {
@@ -387,53 +434,6 @@
 			"response": []
 		},
 		{
-			"name": "NewOrganization",
-			"id": "e166dec0-7fdf-4141-afda-5763a565f66c",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "https://api.trello.com/1/organizations?displayName=Projekt SDA&key={{key}}&token={{token}}&desc=Pierwszy projekt testerski SDA&name=Projekt testerski",
-					"protocol": "https",
-					"host": [
-						"api",
-						"trello",
-						"com"
-					],
-					"path": [
-						"1",
-						"organizations"
-					],
-					"query": [
-						{
-							"key": "displayName",
-							"value": "Projekt SDA"
-						},
-						{
-							"key": "key",
-							"value": "{{key}}"
-						},
-						{
-							"key": "token",
-							"value": "{{token}}"
-						},
-						{
-							"key": "desc",
-							"value": "Pierwszy projekt testerski SDA"
-						},
-						{
-							"key": "name",
-							"value": "Projekt testerski"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "New Request",
 			"id": "f3c8a0d3-194b-4967-9d5b-a00491b7b39f",
 			"protocolProfileBehavior": {
@@ -519,6 +519,18 @@
 						}
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "95c57780-a772-4f04-8a0a-80fbe44c0a02",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
